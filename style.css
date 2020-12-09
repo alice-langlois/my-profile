@@ -96,7 +96,7 @@ ul {
 .list-inline li {
 	display: inline;
 	padding: 25px;
-	margin: 33px;
+	margin: 1px;
 
 }
 
@@ -118,7 +118,7 @@ ul {
 }
 
 .image-large {
-	width : 500px;
+	width : 600px;
 	object-fit: cover;
 	object-position: center;
 	border-radius: 3px;
@@ -131,12 +131,25 @@ ul {
 }
 @media(max-width: 720px) {
 	.container {
-		width: 500px;
+		width: 600px;
+	}
+}
+@media(max-width: 720px) {
+	.image-large {
+		width: 400px;
 	}
 }
 @media (max-width: 540px) {
 	.container {
 		width: 450px;
 	}
-
-
+@media (max-width: 540px) {
+	.image-large {
+		width: 300px;
+	}
+}
+@media (max-width: 540px) {
+	#titre {
+		font-size: 50px;
+	}
+}
